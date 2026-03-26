@@ -22,16 +22,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-        name: Run code format
+      - name: Run code format
         run: npm run format
 
-        name: Run linting
+      - name: Run linting
         run: npm run lint
 
-        name: Run test
+      - name: Run test
         run: npm run test
 
-        name: Run build project
+      - name: Run build project
         run: npm run build
 
 
